@@ -1,0 +1,84 @@
+.list {
+    width: 40vw;
+    height: 15px;
+    background-color: rgb(0, 0, 129);
+    color: white;
+    padding: 7px;
+    padding-bottom: 14px;
+    margin-top: 2px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: large;
+    margin-bottom: 8px;
+}
+
+.list:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.delete {
+    float: right;
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    height: 22px;
+    cursor: pointer;
+
+}
+.delete:hover {
+    border: 1.2px solid rgb(255, 255, 255);
+}
+.edit {
+    float: right;
+    margin-right: 10px;
+    background-color: rgb(255, 196, 0);
+    color: black;
+    border: 0px;
+    border-radius: 2px;
+    height: 22px;
+    cursor: pointer;
+
+}
+.edit:hover {
+    border: 1.2px solid rgb(255, 255, 255);
+}
+#task {
+    padding-left: 10px;
+    margin-right: 10px;
+    width: 40vw;
+    height: 26px;
+    margin-bottom: 5px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+}
+
+#btn,
+#btn-save {
+    height: 31px;
+    background-color: green;
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#btn-save:hover, #btn:hover{
+    background-color: rgb(0, 102, 0);
+    cursor: pointer;
+}
+
+
+h1 {
+    color: #5b00b7;
+    text-align: start;
+}
+
+
+#big-container{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: aliceblue;
+}
